@@ -5,12 +5,14 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { MpcComponent } from './mpc/mpc.component';
+import { InputComponent } from './input/input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    MpcComponent
+    MpcComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
